@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EsepWebhook", "EsepWebhook", "{E1F9FF54-4B0B-41E1-BCDE-4B669A6E6633}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1601A723-C4CD-481F-9DED-340449368719}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EsepWebhook", "EsepWebhook\src\EsepWebhook\EsepWebhook.csproj", "{C3C16E6F-F6E6-48AD-8D1A-728FE125C9B6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{4A76C15D-034A-412C-BB74-C7F87F3A6ED5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EsepWebhook.Tests", "EsepWebhook\test\EsepWebhook.Tests\EsepWebhook.Tests.csproj", "{44C50493-3035-4E25-8AD9-6E2759A603C6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C3C16E6F-F6E6-48AD-8D1A-728FE125C9B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3C16E6F-F6E6-48AD-8D1A-728FE125C9B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3C16E6F-F6E6-48AD-8D1A-728FE125C9B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3C16E6F-F6E6-48AD-8D1A-728FE125C9B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44C50493-3035-4E25-8AD9-6E2759A603C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44C50493-3035-4E25-8AD9-6E2759A603C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44C50493-3035-4E25-8AD9-6E2759A603C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44C50493-3035-4E25-8AD9-6E2759A603C6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1601A723-C4CD-481F-9DED-340449368719} = {E1F9FF54-4B0B-41E1-BCDE-4B669A6E6633}
+		{C3C16E6F-F6E6-48AD-8D1A-728FE125C9B6} = {1601A723-C4CD-481F-9DED-340449368719}
+		{4A76C15D-034A-412C-BB74-C7F87F3A6ED5} = {E1F9FF54-4B0B-41E1-BCDE-4B669A6E6633}
+		{44C50493-3035-4E25-8AD9-6E2759A603C6} = {4A76C15D-034A-412C-BB74-C7F87F3A6ED5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C408E429-C6F5-4009-9012-184D679BC966}
+	EndGlobalSection
+EndGlobal
